@@ -5,12 +5,95 @@ META.yml
 Makefile.PL
 README
 dist.ini
-examples/benchmark.pl
+examples/benchmark4.pl
+examples/benchmark6.pl
 examples/ipv6_benchmarks.pl
 inc/Devel/AssertOS.pm
 inc/Devel/AssertOS/MSWin32.pm
 inc/Devel/CheckOS.pm
 lib/NetAddr/IP/FastNew.pm
+nytprof.out
+'nytprof/(eval 1)[Benchmark-pm-454]-7-line.html'
+'nytprof/(eval 101)[Benchmark-pm-646]-129-line.html'
+'nytprof/(eval 11)[Benchmark-pm-646]-39-line.html'
+'nytprof/(eval 13)[Benchmark-pm-646]-41-line.html'
+'nytprof/(eval 133)[Benchmark-pm-646]-161-line.html'
+'nytprof/(eval 135)[Benchmark-pm-646]-163-line.html'
+'nytprof/(eval 15)[Benchmark-pm-646]-43-line.html'
+'nytprof/(eval 17)[Benchmark-pm-646]-45-line.html'
+'nytprof/(eval 19)[Benchmark-pm-646]-47-line.html'
+'nytprof/(eval 2)[Time-HiRes-pm-28]-13-line.html'
+'nytprof/(eval 21)[Benchmark-pm-646]-49-line.html'
+'nytprof/(eval 23)[Benchmark-pm-646]-51-line.html'
+'nytprof/(eval 25)[Benchmark-pm-646]-53-line.html'
+'nytprof/(eval 27)[Benchmark-pm-646]-55-line.html'
+'nytprof/(eval 29)[Benchmark-pm-646]-57-line.html'
+'nytprof/(eval 3)[base-pm-6]-25-line.html'
+'nytprof/(eval 31)[Benchmark-pm-646]-59-line.html'
+'nytprof/(eval 33)[Benchmark-pm-646]-61-line.html'
+'nytprof/(eval 4)[base-pm-80]-26-line.html'
+'nytprof/(eval 5)[base-pm-80]-27-line.html'
+'nytprof/(eval 59)[Benchmark-pm-646]-87-line.html'
+'nytprof/(eval 6)[lib-NetAddr-IP-FastNew-pm-31]-34-line.html'
+'nytprof/(eval 61)[Benchmark-pm-646]-89-line.html'
+'nytprof/(eval 63)[Benchmark-pm-646]-91-line.html'
+'nytprof/(eval 67)[Benchmark-pm-646]-95-line.html'
+'nytprof/(eval 7)[Benchmark-pm-646]-35-line.html'
+'nytprof/(eval 9)[Benchmark-pm-646]-37-line.html'
+'nytprof/(eval 99)[Benchmark-pm-646]-127-line.html'
+nytprof/AutoLoader-pm-20-line.html
+nytprof/Benchmark-pm-4-line.html
+nytprof/Carp-pm-5-line.html
+nytprof/Config-pm-10-line.html
+nytprof/DynaLoader-pm-9-line.html
+nytprof/Exporter-Heavy-pm-14-line.html
+nytprof/Exporter-pm-6-line.html
+nytprof/NetAddr-IP-InetBase-pm-19-line.html
+nytprof/NetAddr-IP-Lite-pm-18-line.html
+nytprof/NetAddr-IP-Util-pm-28-line.html
+nytprof/NetAddr-IP-Util_IS-pm-30-line.html
+nytprof/NetAddr-IP-pm-17-line.html
+nytprof/Socket-pm-22-line.html
+nytprof/Socket6-pm-23-line.html
+nytprof/Time-HiRes-pm-8-line.html
+nytprof/XSLoader-pm-165-line.html
+nytprof/all_stacks_by_time.calls
+nytprof/all_stacks_by_time.svg
+nytprof/auto-NetAddr-IP-InetBase-autosplit-ix-21-line.html
+nytprof/auto-NetAddr-IP-Util-autosplit-ix-29-line.html
+nytprof/auto-NetAddr-IP-autosplit-ix-33-line.html
+nytprof/base-pm-24-line.html
+nytprof/examples-benchmark4-pl-1-line.html
+nytprof/flamegraph_subattr.txt
+nytprof/index-subs-excl.html
+nytprof/index.html
+nytprof/js/asc.png
+nytprof/js/bg.png
+nytprof/js/desc.png
+nytprof/js/jit/Treemap.css
+nytprof/js/jit/gradient-cushion1.png
+nytprof/js/jit/gradient.png
+nytprof/js/jit/gradient20.png
+nytprof/js/jit/gradient30.png
+nytprof/js/jit/gradient40.png
+nytprof/js/jit/gradient50.png
+nytprof/js/jit/jit-yc.js
+nytprof/js/jit/jit.js
+nytprof/js/jquery-min.js
+nytprof/js/jquery-tablesorter-min.js
+nytprof/js/style-tablesorter.css
+nytprof/lib-NetAddr-IP-FastNew-pm-16-line.html
+nytprof/lib-pm-15-line.html
+nytprof/overload-pm-31-line.html
+nytprof/overloading-pm-32-line.html
+nytprof/packages-callgraph.dot
+nytprof/strict-pm-2-line.html
+nytprof/style.css
+nytprof/subs-callgraph.dot
+nytprof/subs-treemap-excl.html
+nytprof/vars-pm-11-line.html
+nytprof/warnings-pm-3-line.html
+nytprof/warnings-register-pm-12-line.html
 t/10-new_ipv4.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t

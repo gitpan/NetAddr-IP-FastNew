@@ -1,0 +1,198 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" width="1200" height="274" onload="init(evt)" viewBox="0 0 1200 274" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs >
+	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >
+		<stop stop-color="#eeeeee" offset="5%" />
+		<stop stop-color="#eeeeb0" offset="95%" />
+	</linearGradient>
+</defs>
+<style type="text/css">
+	.func_g:hover { stroke:black; stroke-width:0.5; }
+</style>
+<script type="text/ecmascript">
+<![CDATA[
+	var details;
+	function init(evt) { details = document.getElementById("details").firstChild; }
+	function s(info) { details.nodeValue = "sub " + info; }
+	function c() { details.nodeValue = ' '; }
+]]>
+</script>
+<rect x="0.0" y="0" width="1200.0" height="274.0" fill="url(#background)"  />
+<text text-anchor="middle" x="600" y="24" font-size="17" font-family="Verdana" fill="rgb(0,0,0)"  >Flame Graph</text>
+<text text-anchor="" x="10" y="257" font-size="12" font-family="Verdana" fill="rgb(0,0,0)" id="details" > </text>
+<g class="func_g" onmouseover="s('Benchmark::__ANON__[/usr/share/perl/5.18/Benchmark.pm:687] (502,199 microseconds, 2.21%)')" onmouseout="c()">
+<title>Benchmark::__ANON__[/usr/share/perl/5.18/Benchmark.pm:687] (502,199 microseconds, 2.21%)</title><a xlink:href="Benchmark-pm-4-line.html#687" target="_top"><rect x="430.3" y="97" width="26.1" height="15.0" fill="rgb(245,87,31)" rx="2" ry="2" />
+<text text-anchor="" x="433.317848743073" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >B..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('NetAddr::IP::Lite::new (86,354 microseconds, 0.38%)')" onmouseout="c()">
+<title>NetAddr::IP::Lite::new (86,354 microseconds, 0.38%)</title><a xlink:href="NetAddr-IP-Lite-pm-18-line.html#704" target="_top"><rect x="1155.5" y="81" width="4.5" height="15.0" fill="rgb(240,195,24)" rx="2" ry="2" />
+</a>
+</g>
+<g class="func_g" onmouseover="s('NetAddr::IP::InetBase::CORE:ghbyname (228,737 microseconds, 1.01%)')" onmouseout="c()">
+<title>NetAddr::IP::InetBase::CORE:ghbyname (228,737 microseconds, 1.01%)</title><a xlink:href="NetAddr-IP-InetBase-pm-19-line.html#NetAddr__IP__InetBase__CORE_ghbyname" target="_top"><rect x="1105.5" y="49" width="11.9" height="15.0" fill="rgb(244,201,15)" rx="2" ry="2" />
+</a>
+</g>
+<g class="func_g" onmouseover="s('main::__ANON__[examples/benchmark4.pl:12] (3,333,398 microseconds, 14.69%)')" onmouseout="c()">
+<title>main::__ANON__[examples/benchmark4.pl:12] (3,333,398 microseconds, 14.69%)</title><a xlink:href="examples-benchmark4-pl-1-line.html#12" target="_top"><rect x="821.2" y="97" width="173.3" height="15.0" fill="rgb(212,78,22)" rx="2" ry="2" />
+<text text-anchor="" x="824.155243077467" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >main::__ANON__[examples/..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('main::__ANON__[examples/benchmark4.pl:11] (3,524,833 microseconds, 15.53%)')" onmouseout="c()">
+<title>main::__ANON__[examples/benchmark4.pl:11] (3,524,833 microseconds, 15.53%)</title><a xlink:href="examples-benchmark4-pl-1-line.html#11" target="_top"><rect x="637.9" y="97" width="183.3" height="15.0" fill="rgb(233,6,10)" rx="2" ry="2" />
+<text text-anchor="" x="640.889486629483" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >main::__ANON__[examples/b..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('NetAddr::IP::InetBase::fillIPv4 (401,286 microseconds, 1.77%)')" onmouseout="c()">
+<title>NetAddr::IP::InetBase::fillIPv4 (401,286 microseconds, 1.77%)</title><a xlink:href="NetAddr-IP-InetBase-pm-19-line.html#167" target="_top"><rect x="1117.4" y="49" width="20.8" height="15.0" fill="rgb(205,109,47)" rx="2" ry="2" />
+<text text-anchor="" x="1120.36788074151" y="59.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >N..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('NetAddr::IP::Lite::BEGIN@18 (2,837 microseconds, 0.01%)')" onmouseout="c()">
+<title>NetAddr::IP::Lite::BEGIN@18 (2,837 microseconds, 0.01%)</title><a xlink:href="NetAddr-IP-Lite-pm-18-line.html#18" target="_top"><rect x="1189.2" y="161" width="0.1" height="15.0" fill="rgb(250,115,6)" rx="2" ry="2" />
+</a>
+</g>
+<g class="func_g" onmouseover="s('main::__ANON__[examples/benchmark4.pl:9] (3,184,176 microseconds, 14.03%)')" onmouseout="c()">
+<title>main::__ANON__[examples/benchmark4.pl:9] (3,184,176 microseconds, 14.03%)</title><a xlink:href="examples-benchmark4-pl-1-line.html#9" target="_top"><rect x="994.5" y="97" width="165.5" height="15.0" fill="rgb(217,127,17)" rx="2" ry="2" />
+<text text-anchor="" x="997.467752358841" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >main::__ANON__[examples..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('NetAddr::IP::InetBase::CORE:match (51,763 microseconds, 0.23%)')" onmouseout="c()">
+<title>NetAddr::IP::InetBase::CORE:match (51,763 microseconds, 0.23%)</title><a xlink:href="NetAddr-IP-InetBase-pm-19-line.html#NetAddr__IP__InetBase__CORE_match" target="_top"><rect x="1135.5" y="33" width="2.7" height="15.0" fill="rgb(254,54,20)" rx="2" ry="2" />
+</a>
+</g>
+<g class="func_g" onmouseover="s('NetAddr::IP::FastNew::new_ipv4_cidr (2,093,548 microseconds, 9.22%)')" onmouseout="c()">
+<title>NetAddr::IP::FastNew::new_ipv4_cidr (2,093,548 microseconds, 9.22%)</title><a xlink:href="lib-NetAddr-IP-FastNew-pm-16-line.html#330" target="_top"><rect x="885.6" y="81" width="108.9" height="15.0" fill="rgb(224,24,12)" rx="2" ry="2" />
+<text text-anchor="" x="888.618424752411" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >NetAddr::IP::F..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('NetAddr::IP::FastNew::new_ipv4 (2,014,292 microseconds, 8.88%)')" onmouseout="c()">
+<title>NetAddr::IP::FastNew::new_ipv4 (2,014,292 microseconds, 8.88%)</title><a xlink:href="lib-NetAddr-IP-FastNew-pm-16-line.html#280" target="_top"><rect x="533.2" y="81" width="104.7" height="15.0" fill="rgb(222,75,30)" rx="2" ry="2" />
+<text text-anchor="" x="536.160916995776" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >NetAddr::IP::..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Benchmark::BEGIN@453 (5,589 microseconds, 0.02%)')" onmouseout="c()">
+<title>Benchmark::BEGIN@453 (5,589 microseconds, 0.02%)</title><a xlink:href="Benchmark-pm-4-line.html#453" target="_top"><rect x="1188.3" y="193" width="0.3" height="15.0" fill="rgb(250,55,41)" rx="2" ry="2" />
+</a>
+</g>
+<g class="func_g" onmouseover="s('NetAddr::IP::Util::notcontiguous (34,019 microseconds, 0.15%)')" onmouseout="c()">
+<title>NetAddr::IP::Util::notcontiguous (34,019 microseconds, 0.15%)</title><a xlink:href="NetAddr-IP-Util-pm-28-line.html#NetAddr__IP__Util__notcontiguous" target="_top"><rect x="1153.8" y="65" width="1.7" height="15.0" fill="rgb(247,88,37)" rx="2" ry="2" />
+</a>
+</g>
+<g class="func_g" onmouseover="s('Benchmark::mytime (47,120 microseconds, 0.21%)')" onmouseout="c()">
+<title>Benchmark::mytime (47,120 microseconds, 0.21%)</title><a xlink:href="Benchmark-pm-4-line.html#449" target="_top"><rect x="1185.2" y="97" width="2.4" height="15.0" fill="rgb(230,73,50)" rx="2" ry="2" />
+</a>
+</g>
+<g class="func_g" onmouseover="s('Benchmark::runloop (22,648,779 microseconds, 99.79%)')" onmouseout="c()">
+<title>Benchmark::runloop (22,648,779 microseconds, 99.79%)</title><a xlink:href="Benchmark-pm-4-line.html#628" target="_top"><rect x="10.1" y="129" width="1177.6" height="15.0" fill="rgb(205,64,15)" rx="2" ry="2" />
+<text text-anchor="" x="13.1026284837863" y="139.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Benchmark::runloop</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Benchmark::timethis (22,650,946 microseconds, 99.80%)')" onmouseout="c()">
+<title>Benchmark::timethis (22,650,946 microseconds, 99.80%)</title><a xlink:href="Benchmark-pm-4-line.html#812" target="_top"><rect x="10.0" y="177" width="1177.7" height="15.0" fill="rgb(209,139,0)" rx="2" ry="2" />
+<text text-anchor="" x="13.0158733857338" y="187.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Benchmark::timethis</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Benchmark::cmpthese (22,651,251 microseconds, 99.81%)')" onmouseout="c()">
+<title>Benchmark::cmpthese (22,651,251 microseconds, 99.81%)</title><a xlink:href="Benchmark-pm-4-line.html#890" target="_top"><rect x="10.0" y="209" width="1177.7" height="15.0" fill="rgb(252,4,14)" rx="2" ry="2" />
+<text text-anchor="" x="13" y="219.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Benchmark::cmpthese</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('main::BEGIN@5 (24,868 microseconds, 0.11%)')" onmouseout="c()">
+<title>main::BEGIN@5 (24,868 microseconds, 0.11%)</title><a xlink:href="examples-benchmark4-pl-1-line.html#5" target="_top"><rect x="1188.6" y="209" width="1.3" height="15.0" fill="rgb(229,209,51)" rx="2" ry="2" />
+</a>
+</g>
+<g class="func_g" onmouseover="s('Socket::inet_pton (219,329 microseconds, 0.97%)')" onmouseout="c()">
+<title>Socket::inet_pton (219,329 microseconds, 0.97%)</title><a xlink:href="Socket-pm-22-line.html#Socket__inet_pton" target="_top"><rect x="626.5" y="65" width="11.4" height="15.0" fill="rgb(232,212,8)" rx="2" ry="2" />
+</a>
+</g>
+<g class="func_g" onmouseover="s('NetAddr::IP::Lite::CORE:match (252,207 microseconds, 1.11%)')" onmouseout="c()">
+<title>NetAddr::IP::Lite::CORE:match (252,207 microseconds, 1.11%)</title><a xlink:href="NetAddr-IP-Lite-pm-18-line.html#NetAddr__IP__Lite__CORE_match" target="_top"><rect x="1138.2" y="65" width="13.1" height="15.0" fill="rgb(225,62,42)" rx="2" ry="2" />
+</a>
+</g>
+<g class="func_g" onmouseover="s('Benchmark::timethese (22,650,992 microseconds, 99.80%)')" onmouseout="c()">
+<title>Benchmark::timethese (22,650,992 microseconds, 99.80%)</title><a xlink:href="Benchmark-pm-4-line.html#852" target="_top"><rect x="10.0" y="193" width="1177.7" height="15.0" fill="rgb(219,178,12)" rx="2" ry="2" />
+<text text-anchor="" x="13.0135025164594" y="203.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Benchmark::timethese</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('NetAddr::IP::FastNew::BEGIN@5 (22,884 microseconds, 0.10%)')" onmouseout="c()">
+<title>NetAddr::IP::FastNew::BEGIN@5 (22,884 microseconds, 0.10%)</title><a xlink:href="lib-NetAddr-IP-FastNew-pm-16-line.html#5" target="_top"><rect x="1188.7" y="193" width="1.2" height="15.0" fill="rgb(237,105,51)" rx="2" ry="2" />
+</a>
+</g>
+<g class="func_g" onmouseover="s('main::__ANON__[examples/benchmark4.pl:10] (3,490,120 microseconds, 15.38%)')" onmouseout="c()">
+<title>main::__ANON__[examples/benchmark4.pl:10] (3,490,120 microseconds, 15.38%)</title><a xlink:href="examples-benchmark4-pl-1-line.html#10" target="_top"><rect x="456.4" y="97" width="181.5" height="15.0" fill="rgb(237,43,6)" rx="2" ry="2" />
+<text text-anchor="" x="459.42853881878" y="107.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >main::__ANON__[examples/b..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Benchmark::timeit (22,650,473 microseconds, 99.80%)')" onmouseout="c()">
+<title>Benchmark::timeit (22,650,473 microseconds, 99.80%)</title><a xlink:href="Benchmark-pm-4-line.html#675" target="_top"><rect x="10.0" y="145" width="1177.7" height="15.0" fill="rgb(207,125,32)" rx="2" ry="2" />
+<text text-anchor="" x="13.0389685640599" y="155.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Benchmark::timeit</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Benchmark::__ANON__[(eval 0)[/usr/share/perl/5.18/Benchmark.pm:646]:1] (21,825,246 microseconds, 96.17%)')" onmouseout="c()">
+<title>Benchmark::__ANON__[(eval 0)[/usr/share/perl/5.18/Benchmark.pm:646]:1] (21,825,246 microseconds, 96.17%)</title><rect x="25.3" y="113" width="1134.7" height="15.0" fill="rgb(241,229,25)" rx="2" ry="2" />
+<text text-anchor="" x="28.2672750835214" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Benchmark::__ANON__[(eval 0)[/usr/share/perl/5.18/Benchmark.pm:646]:1]</text>
+</g>
+<g class="func_g" onmouseover="s('NetAddr::IP::InetBase::inet_aton (945,807 microseconds, 4.17%)')" onmouseout="c()">
+<title>NetAddr::IP::InetBase::inet_aton (945,807 microseconds, 4.17%)</title><a xlink:href="NetAddr-IP-InetBase-pm-19-line.html#205" target="_top"><rect x="1089.1" y="65" width="49.1" height="15.0" fill="rgb(244,102,42)" rx="2" ry="2" />
+<text text-anchor="" x="1092.05676921474" y="75.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >NetAd..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Socket::inet_pton (338,476 microseconds, 1.49%)')" onmouseout="c()">
+<title>Socket::inet_pton (338,476 microseconds, 1.49%)</title><a xlink:href="Socket-pm-22-line.html#Socket__inet_pton" target="_top"><rect x="803.6" y="65" width="17.6" height="15.0" fill="rgb(237,128,49)" rx="2" ry="2" />
+</a>
+</g>
+<g class="func_g" onmouseover="s('NetAddr::IP::BEGIN@8 (21,060 microseconds, 0.09%)')" onmouseout="c()">
+<title>NetAddr::IP::BEGIN@8 (21,060 microseconds, 0.09%)</title><a xlink:href="NetAddr-IP-pm-17-line.html#8" target="_top"><rect x="1188.8" y="177" width="1.1" height="15.0" fill="rgb(245,224,26)" rx="2" ry="2" />
+</a>
+</g>
+<g class="func_g" onmouseover="s('NetAddr::IP::Util::ipv4to6 (46,515 microseconds, 0.20%)')" onmouseout="c()">
+<title>NetAddr::IP::Util::ipv4to6 (46,515 microseconds, 0.20%)</title><a xlink:href="NetAddr-IP-Util-pm-28-line.html#NetAddr__IP__Util__ipv4to6" target="_top"><rect x="1151.3" y="65" width="2.5" height="15.0" fill="rgb(213,202,43)" rx="2" ry="2" />
+</a>
+</g>
+<g class="func_g" onmouseover="s('NetAddr::IP::FastNew::new_ipv4_mask (2,405,827 microseconds, 10.60%)')" onmouseout="c()">
+<title>NetAddr::IP::FastNew::new_ipv4_mask (2,405,827 microseconds, 10.60%)</title><a xlink:href="lib-NetAddr-IP-FastNew-pm-16-line.html#301" target="_top"><rect x="696.1" y="81" width="125.1" height="15.0" fill="rgb(216,153,49)" rx="2" ry="2" />
+<text text-anchor="" x="699.069693151314" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >NetAddr::IP::Fas..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('NetAddr::IP::Lite::_xnew (2,850,183 microseconds, 12.56%)')" onmouseout="c()">
+<title>NetAddr::IP::Lite::_xnew (2,850,183 microseconds, 12.56%)</title><a xlink:href="NetAddr-IP-Lite-pm-18-line.html#758" target="_top"><rect x="1007.3" y="81" width="148.2" height="15.0" fill="rgb(244,14,50)" rx="2" ry="2" />
+<text text-anchor="" x="1010.34313230102" y="91.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >NetAddr::IP::Lite::_..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('main::BEGIN@2 (3,589 microseconds, 0.02%)')" onmouseout="c()">
+<title>main::BEGIN@2 (3,589 microseconds, 0.02%)</title><a xlink:href="examples-benchmark4-pl-1-line.html#2" target="_top"><rect x="1187.7" y="209" width="0.2" height="15.0" fill="rgb(221,143,22)" rx="2" ry="2" />
+</a>
+</g>
+<g class="func_g" onmouseover="s('Benchmark::new (530,733 microseconds, 2.34%)')" onmouseout="c()">
+<title>Benchmark::new (530,733 microseconds, 2.34%)</title><a xlink:href="Benchmark-pm-4-line.html#536" target="_top"><rect x="1160.0" y="113" width="27.6" height="15.0" fill="rgb(251,14,32)" rx="2" ry="2" />
+<text text-anchor="" x="1163.0217947116" y="123.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Be..</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('main::BEGIN@3 (12,839 microseconds, 0.06%)')" onmouseout="c()">
+<title>main::BEGIN@3 (12,839 microseconds, 0.06%)</title><a xlink:href="examples-benchmark4-pl-1-line.html#3" target="_top"><rect x="1187.9" y="209" width="0.7" height="15.0" fill="rgb(229,25,45)" rx="2" ry="2" />
+</a>
+</g>
+<g class="func_g" onmouseover="s('Socket::inet_pton (217,764 microseconds, 0.96%)')" onmouseout="c()">
+<title>Socket::inet_pton (217,764 microseconds, 0.96%)</title><a xlink:href="Socket-pm-22-line.html#Socket__inet_pton" target="_top"><rect x="983.1" y="65" width="11.4" height="15.0" fill="rgb(228,163,48)" rx="2" ry="2" />
+</a>
+</g>
+<g class="func_g" onmouseover="s('Benchmark::countit (22,650,820 microseconds, 99.80%)')" onmouseout="c()">
+<title>Benchmark::countit (22,650,820 microseconds, 99.80%)</title><a xlink:href="Benchmark-pm-4-line.html#714" target="_top"><rect x="10.0" y="161" width="1177.7" height="15.0" fill="rgb(234,127,22)" rx="2" ry="2" />
+<text text-anchor="" x="13.0209114829418" y="171.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Benchmark::countit</text>
+</a>
+</g>
+<g class="func_g" onmouseover="s('Benchmark::BEGIN@432 (3,571 microseconds, 0.02%)')" onmouseout="c()">
+<title>Benchmark::BEGIN@432 (3,571 microseconds, 0.02%)</title><a xlink:href="Benchmark-pm-4-line.html#432" target="_top"><rect x="1188.1" y="193" width="0.2" height="15.0" fill="rgb(233,15,15)" rx="2" ry="2" />
+</a>
+</g>
+<g class="func_g" onmouseover="s('NetAddr::IP::Lite::BEGIN@9 (8,466 microseconds, 0.04%)')" onmouseout="c()">
+<title>NetAddr::IP::Lite::BEGIN@9 (8,466 microseconds, 0.04%)</title><a xlink:href="NetAddr-IP-Lite-pm-18-line.html#9" target="_top"><rect x="1189.4" y="161" width="0.5" height="15.0" fill="rgb(224,10,29)" rx="2" ry="2" />
+</a>
+</g>
+<g class="func_g" onmouseover="s('all (22,695,473 microseconds, 100%)')" onmouseout="c()">
+<title>all (22,695,473 microseconds, 100%)</title><rect x="10.0" y="225" width="1180.0" height="15.0" fill="rgb(245,15,34)" rx="2" ry="2" />
+<text text-anchor="" x="13" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+</svg>

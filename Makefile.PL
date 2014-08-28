@@ -25,7 +25,7 @@ my %WriteMakefileArgs = (
   "PREREQ_PM" => {
     "NetAddr::IP" => 0,
     "NetAddr::IP::Util" => 0,
-    "Socket" => 0,
+    "Socket" => "1.95",
     "strict" => 0,
     "warnings" => 0
   },
@@ -33,7 +33,7 @@ my %WriteMakefileArgs = (
     "Test::More" => 0,
     "lib" => 0
   },
-  "VERSION" => "0.2",
+  "VERSION" => "0.3",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -43,7 +43,7 @@ my %WriteMakefileArgs = (
 my %FallbackPrereqs = (
   "NetAddr::IP" => 0,
   "NetAddr::IP::Util" => 0,
-  "Socket" => 0,
+  "Socket" => "1.95",
   "Test::More" => 0,
   "lib" => 0,
   "strict" => 0,
